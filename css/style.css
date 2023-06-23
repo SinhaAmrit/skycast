@@ -1,0 +1,112 @@
+/* Global styles */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+/* Container styles */
+#container {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-image: radial-gradient(
+    circle 815px at 23.4% -21.8%,
+    rgba(9, 29, 85, 1) 0.2%,
+    rgba(0, 0, 0, 1) 100.2%
+  );
+}
+
+/* Location section styles */
+#container #location {
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 6%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+/* Input styles */
+#container input {
+  height: 50px;
+  width: 300px;
+  margin: 0px 20px;
+  padding: 0 20px;
+  border: 1px solid #fff;
+  outline: none;
+  background: #ffffff50;
+  font-size: 20px;
+  border-radius: 25px 10px;
+  color: #fff;
+}
+
+/* Input placeholder styles */
+#container input::placeholder {
+  color: #e2e2e2;
+}
+
+/* Submit button styles */
+#container input[type="submit"] {
+  cursor: pointer;
+  width: 150px;
+  background: #fff;
+  color: rgba(9, 29, 85, 1);
+  font-weight: 700;
+  font-size: 22px;
+}
+
+/* Temperature icon styles */
+#tempIcon {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 27%;
+  right: 20%;
+}
+
+/* Weather country styles */
+#weatherCountry {
+  font-size: 40px;
+  position: absolute;
+  top: 40%;
+  left: 15%;
+}
+
+/* Temperature styles */
+#temperature {
+  font-size: 45px;
+  position: absolute;
+  bottom: 35%;
+  left: 43%;
+}
+
+/* Temperature unit styles */
+#temperature b {
+  color: #e2e2e290;
+}
+
+/* Weather description styles */
+#weatherDescription {
+  font-size: 30px;
+  position: absolute;
+  bottom: 23%;
+  left: 43%;
+}
+
+/* Additional information list styles */
+#container ul {
+  position: absolute;
+  bottom: 3%;
+  left: 3%;
+}
+
+/* Additional information item styles */
+#container ul li {
+  font-size: 22px;
+  margin: 20px 0;
+}
