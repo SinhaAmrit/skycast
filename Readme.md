@@ -2,6 +2,11 @@
 
 Sky Cast is a weather application that provides users with real-time weather information for a specific location. It allows users to input the country and city of their choice and retrieve weather data such as temperature, weather description, and additional information.
 
+## Screenshot(s)
+
+![App Screenshot](https://i.ibb.co/MZvm7bb/pika-1687515915610-1x.png)
+
+
 ## Features
 
 - Input Location: Users can enter the country and city of their choice to retrieve weather information for that location.
@@ -40,4 +45,4 @@ const apiKey = 'YOUR_API_KEY_HERE';
 
 ## License
 
-This project is licensed under the MIT license.
+This project is licensed under the MIT license. [MIT](https://choosealicense.com/licenses/mit/)
