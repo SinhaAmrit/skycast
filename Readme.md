@@ -42,6 +42,7 @@ The Sky Cast application integrates with the OpenWeather API to fetch real-time 
 
 ```javascript
 const apiKey = 'YOUR_API_KEY_HERE';
+```
 
 ## License
 
