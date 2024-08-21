@@ -19,7 +19,7 @@ Sky Cast is a weather application that provides users with real-time weather inf
 - HTML
 - CSS
 - JavaScript
-- OpenWeather API (free)
+- OpenWeather API
 
 ## Usage
 
